@@ -1,0 +1,71 @@
+*{
+    /* color: #BFBDB6; */
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    padding: 20px;
+    color: white;
+}
+
+.text-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+label{
+    padding: 10px;
+}
+input[type="date"] {
+    padding: 8px;
+    margin-right: 10px;
+    text-align: center;
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    border: none;
+    background-color: #171B24;
+    color: white;
+
+}
+button {
+    padding: 8px 16px;
+    background-color: #E1AF4B;
+    color: #000;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #171B24;
+    color: #ffffff;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+#result {
+    font-size: 1.2em;
+    color: #ffffff;
+    text-align: center;
+}
